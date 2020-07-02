@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#main-div {
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid;
+}
+
+#button-div {
+	width: 100%;
+	height: 75%;
+}
+
+#input-div {
+	width: 100%;
+	height: 25%;
+}
+
+.paste {
+	width: 100%;
+	height: 10%;
+}

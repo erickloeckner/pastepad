@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+<!--
+    <link rel="stylesheet" type="text/css" href="./style.css">
+-->
+    <title>Home</title>
+  </head>
+  <body>
+    <script type="module">
+      import init from './pkg/pastepad.js';
+      async function run() {
+        await init();
+      }
+      run();
+    </script>
+    <div id="main-div">
+      <div id="button-div">
+        <input type="button" class="paste" id="b-00" value="button 00">
+        <input type="button" class="paste" id="b-01" value="button 01">
+        <input type="button" class="paste" id="b-02" value="button 02">
+        <input type="button" class="paste" id="b-03" value="button 03">
+        <input type="button" class="paste" id="b-04" value="button 04">
+        <input type="button" class="paste" id="b-05" value="button 05">
+        <input type="button" class="paste" id="b-06" value="button 06">
+        <input type="button" class="paste" id="b-07" value="button 07">
+        <input type="button" class="paste" id="b-08" value="button 08">
+        <input type="button" class="paste" id="b-09" value="button 09">
+      </div>
+      <div id="input-div">
+        <textarea id="textbox"></textarea>
+        <input type="button" id="text_input" value="submit">
+      </div>
+    </div>
+  </body>
+</html>
